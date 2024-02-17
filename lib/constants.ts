@@ -1,1 +1,1 @@
-export const BASE_URL = `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`;
+export const BASE_URL = `https://meme-frame-one.vercel.app`;
