@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
                         action: "link",
                         target: `https://warpcast.com/~/compose?text=${encodedMessage}&embeds[]=${
                             image + encodedTexts + encodeURIComponent(".png")
-                        }.png`,
+                        }`,
                     },
                 ],
                 postUrl: `${BASE_URL}/api/post_url?texts=` + encodedTexts,
